@@ -7,6 +7,29 @@ Welcome to the **Visual Localization and Mapping Workshop** organized at CVPR 20
 
 * * *
 
+# Topic {#topic}
+
+Visual localization and mapping is a fundamental aspect of computer vision, with applications ranging from autonomous robotics to augmented reality. This workshop aims to bring together researchers, practitioners, and enthusiasts in the field to discuss the latest developments, challenges, and applications of visual localization and mapping. The workshop will provide a platform for sharing insights, fostering collaborations, and exploring the cutting-edge research that underpins this crucial area of computer vision.
+
+Topics that will be covered in the workshop:
+
+1. **SLAM (Simultaneous Localization and Mapping)**: Discuss the state-of-the-art SLAM algorithms, including both monocular, multi-sensor, and deep learning-based approaches.
+2. **Visual Odometry**: Explore techniques for estimating the motion of a camera using visual data, and its applications in navigation and robotics.
+3. **3D Reconstruction**: Present research on 3D scene reconstruction from images and discuss its role in mapping and localization.
+4. **Semantic Mapping**: Highlight approaches that incorporate semantic information into mapping and localization tasks, enhancing scene understanding.
+5. **Deep Learning for Visual Localization**: Discuss the integration of deep learning techniques, such as CNNs, Transformers, etc., in visual localization and mapping.
+6. **Large-Scale Mapping**: Examine methods for handling large-scale environments and
+their implications for real-world applications.
+7. **Sensor Fusion**: Explore the fusion of visual data with other sensors, such as LiDAR,
+IMU, and GNSS, for robust localization.
+8. **Localization in Challenging Environments**: Address challenges such as low light and harsh weather conditions, dynamic scenes, and occlusions in localization and mapping.
+9. **Applications**: Present real-world applications of visual localization and mapping, including robotics, autonomous vehicles, AR/VR, and more.
+10. **Benchmark Datasets and Evaluation Metrics**: Discuss standardized datasets and evaluation criteria to measure the performance of localization and mapping algorithms.
+11. **Future Directions**: Explore emerging trends and future research directions in the field, including the role of AI and machine learning.
+12. **Industrial and Commercial Use Cases**: Showcase successful commercial implementations and case studies that demonstrate the practical value of visual localization and mapping.
+
+* * *
+
 # Schedule {#schedule}
 TBD
 
