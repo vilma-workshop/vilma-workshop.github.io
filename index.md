@@ -3,7 +3,7 @@ layout: default
 ---
 
 Welcome to the **Visual Localization and Mapping Workshop** organized at CVPR 2024 in Seattle, WA. 
-[<img class="img-centered" src="assets/imgs/cvpr2024_logo.png" width="500px" alt="cvpr2024_logo"/>](https://cvpr.thecvf.com/Conferences/2024){:target="_blank"}
+[<img class="img-centered" src="assets/imgs/cvpr2024_logo.png" width="500" alt="cvpr2024_logo"/>](https://cvpr.thecvf.com/Conferences/2024){:target="_blank"}
 
 * * *
 
