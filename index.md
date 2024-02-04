@@ -2,122 +2,71 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+Welcome to the **Visual Localization and Mapping Workshop** organized at CVPR 2024 in Seattle, WA. 
+[<img class="img-centered" src="assets/imgs/cvpr2024_logo.png" width="500px" alt="cvpr2024_logo"/>](https://cvpr.thecvf.com/Conferences/2024){:target="_blank"}
 
 * * *
 
-### Here is an unordered list:
+# Schedule {#schedule}
+TBD
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+* * *
 
-### And an ordered list:
+# Keynote Speakers {#speakers}
+TBD
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+* * *
 
-### And a nested list:
+# Organizers {#organizers}
+<div class="container">
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+<figure>
+    <a href="https://cvg.cit.tum.de/members/cremers" target="_blank">
+    <img class="img-organizer" src="assets/imgs/organizers/daniel_cremers.jpg" alt="Daniel Cremers"/></a>
+    <b><br><a href="https://cvg.cit.tum.de/members/cremers" target="_blank">Daniel Cremers</a>
+    <br>Professor<br>Technical University of Munich</b>
+</figure>
 
-### Small image
+<figure>
+    <a href="https://dimadamen.github.io/" target="_blank">
+    <img class="img-organizer" src="assets/imgs/organizers/dima_damen.jpg" alt="Dima Damen"/></a>
+    <b><br><a href="https://dimadamen.github.io/" target="_blank">Dima Damen</a>
+    <br>Professor<br>University of Bristol</b>
+</figure>
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+<figure>
+    <a href="https://cvg.cit.tum.de/members/koestlel" target="_blank">
+    <img class="img-organizer" src="assets/imgs/organizers/lukas_koestler.jpg" alt="Lukas Koestler"/></a>
+    <b><br><a href="https://cvg.cit.tum.de/members/koestlel" target="_blank">Lukas Koestler</a>
+    <br>PhD Student<br>Technical University of Munich</b>
+</figure>
 
-### Large image
+<figure>
+    <a href="https://srl.cit.tum.de/members/leuteneg" target="_blank">
+    <img class="img-organizer" src="assets/imgs/organizers/stefan_leutenegger.jpg" alt="Stefan Leutenegger"/></a>
+    <b><br><a href="https://srl.cit.tum.de/members/leuteneg" target="_blank">Stefan Leutenegger</a>
+    <br>Professor<br>Technical University of Munich</b>
+</figure>
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+<figure>
+    <a href="https://www.cs.toronto.edu/~urtasun/" target="_blank">
+    <img class="img-organizer" src="assets/imgs/organizers/raquel_urtasun.jpg" alt="Raquel Urtasun"/></a>
+    <b><br><a href="https://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>
+    <br>CEO & Professor<br>Waabi & University of Toronto</b>
+</figure>
 
+<figure>
+    <a href="https://pmwenzel.github.io/" target="_blank">
+    <img class="img-organizer" src="assets/imgs/organizers/patrick_wenzel.jpg" alt="Patrick Wenzel"/></a>
+    <b><br><a href="https://pmwenzel.github.io/" target="_blank">Patrick Wenzel</a>
+    <br>AI Research Engineer<br>Helsing</b>
+</figure>
 
-### Definition lists can be used with HTML syntax.
+<figure>
+    <a href="https://www.niclas-zeller.de/" target="_blank">
+    <img class="img-organizer" src="assets/imgs/organizers/niclas_zeller.jpg" alt="Niclas Zeller"/></a>
+    <b><br><a href="https://www.niclas-zeller.de/" target="_blank">Niclas Zeller</a>
+    <br>Professor<br>Karlsruhe University of Applied Sciences</b>
+</figure>
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+</div>

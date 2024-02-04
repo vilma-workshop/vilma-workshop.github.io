@@ -2,3 +2,37 @@
 ---
 
 @import 'jekyll-theme-cayman';
+
+.text-align-center {
+    text-align: center;
+}
+
+.img-centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure {
+    display: inline-block;
+    font-size: small;
+}
+
+.embed-container {
+    display: inline-block;
+}
+
+.container {
+    width: 105%;
+    padding: 5px;
+    text-align: center;
+    text-align-last: center;
+    -moz-text-align-last: justify;
+}
+  
+.img-organizer {
+    width:190px;
+    height:190px;
+    object-fit:cover;
+    border-radius:50%;
+}
