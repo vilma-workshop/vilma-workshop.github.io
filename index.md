@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Visual Localization and Mapping Workshop
+description: ViLMa @ CVPR 2024
 ---
 
 Welcome to the **Visual Localization and Mapping Workshop** organized at CVPR 2024 in Seattle, WA. 
