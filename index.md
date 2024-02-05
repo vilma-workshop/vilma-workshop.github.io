@@ -31,7 +31,8 @@ IMU, and GNSS, for robust localization.
 * * *
 
 # Schedule {#schedule}
-TBD
+- **June 17, 2024 ---** ViLMa Workshop @ CVPR 2024
+- TBD
 
 * * *
 
