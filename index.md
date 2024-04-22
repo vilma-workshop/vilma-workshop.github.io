@@ -39,7 +39,43 @@ IMU, and GNSS, for robust localization.
 * * *
 
 # Keynote Speakers {#speakers}
-TBD
+<div class="container">
+
+<figure>
+    <a href="https://theairlab.org/team/sebastian" target="_blank">
+    <img class="img-organizer" src="assets/imgs/speakers/sebastian_scherer.jpeg" alt="Sebastian Scherer"/></a>
+    <b><br><a href="https://theairlab.org/team/sebastian" target="_blank">Sebastian Scherer</a>
+    <br>Associate Research Professor<br>Carnegie Mellon University</b>
+</figure>
+
+<figure>
+    <a href="https://scholar.google.com/citations?user=jBgFEukAAAAJ" target="_blank">
+    <img class="img-organizer" src="assets/imgs/speakers/lukas_von_stumberg.jpeg" alt="Lukas von Stumberg"/></a>
+    <b><br><a href="https://scholar.google.com/citations?user=jBgFEukAAAAJ" target="_blank">Lukas von Stumberg</a>
+    <br>Computer Vision Software Engineer<br>Valve Corporation</b>
+</figure>
+
+<figure>
+    <a href="https://vincentlepetit.github.io/" target="_blank">
+    <img class="img-organizer" src="assets/imgs/speakers/vincent_lepetit.jpeg" alt="Vincent Lepetit"/></a>
+    <b><br><a href="https://vincentlepetit.github.io/" target="_blank">Vincent Lepetit</a>
+    <br>Professor<br>ENPC ParisTech</b>
+</figure>
+
+</div>
+
+**Sebastian Scherer**
+is an Associate Research Professor at the Robotics Institute (RI) at Carnegie Mellon University (CMU). His research focuses on enabling autonomy in challenging environments and previously led CMU’s entry to the SubT challenge. He and his team have shown several firsts for autonomy for flying robots and off-road driving . Dr. Scherer received his B.S. in Computer Science, M.S. and Ph.D. in Robotics from CMU in 2004, 2007, and 2010.  
+
+**Lukas von Stumberg**
+works at Valve Software on computer vision and machine learning. In 2023, he received his PhD at the Computer Vision Group, Technical University of Munich. His research interests are visual(-inertial) SLAM and robotics, combining traditional methods with deep learning. From 2018 until 2020, he was a Senior Computer Vision Engineer at the start-up Artisense, developing machine vision systems for robot and vehicle automation. He has published 11 conference and journal papers and 2 book chapters, which were cited 1300 times. Among them is the open-source SLAM system DM-VIO.
+
+**Vincent Lepetit**
+is a professor at ENPC ParisTech, France. Prior to this position, he was a full professor at the Institute for Computer Graphics and Vision, Graz University of Technology (TU Graz), Austria and before that, a senior researcher at CVLab, Ecole Polytechnique Federale de Lausanne (EPFL), Switzerland. His current research focuses on 3D scene understanding, especially at trying to reduce the supervision needed by a system to learn new 3D objects and new 3D environments. In 2020, he received with colleagues the Koenderick “test-of-time” award for “Brief: Binary Robust Independent Elementary Features”. He often serves as an area chair of major computer vision conferences (CVPR, ICCV, ECCV) and as an editor for the Pattern Analysis and Machine Intelligence (PAMI). He was awarded in 2023 an ERC Advanced Grant for the 'explorer' project on creating digital twins of large-scale sites.
+
+**Peter Kontschieder**
+
+**Jakob Engel**
 
 * * *
 
