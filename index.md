@@ -69,6 +69,13 @@ IMU, and GNSS, for robust localization.
     <br>Director of Research<br>Meta Reality Labs</b>
 </figure>
 
+<figure>
+    <a href="https://scholar.google.com/citations?user=CxbDDRMAAAAJ" target="_blank">
+    <img class="img-organizer" src="assets/imgs/speakers/peter_kontschieder.jpg" alt="Peter Kontschieder"/></a>
+    <b><br><a href="https://scholar.google.com/citations?user=CxbDDRMAAAAJ" target="_blank">Peter Kontschieder</a>
+    <br>Director of Research<br>Meta Reality Labs</b>
+</figure>
+
 </div>
 
 **Sebastian Scherer**
@@ -84,6 +91,7 @@ is a professor at ENPC ParisTech, France. Prior to this position, he was a full 
 is a Director of Research at Meta Reality labs, where he is leading egocentric machine perception research as part of Meta's Project Aria. He has 10+ years of experience working on SLAM, 3D scene understanding and user/environment interaction tracking, leading both research projects as well as shipping core localization technology into Meta's MR and VR product lines. Dr. Engel received his Ph.D. in Computer Science at the Computer Vision Group at the Technical University of Munich in 2016, where he pioneered direct methods for SLAM through DSO and LSD-SLAM.
 
 **Peter Kontschieder**
+received his PhD in 2013 from Graz University of Technology and is currently a Director (Research Science) at Meta Reality Labs in Zurich. His research interests include computer vision and machine learning, with particular focus on photorealistic 3D scene reconstruction, semantic scene understanding, image-based 3D modeling, and generative models for 3D synthesis. From 2013-2016 he was a postdoctoral researcher in the Machine Intelligence and Perception group at Microsoft Research in Cambridge (UK). In 2016 he joined Mapillary and founded Mapillary Research – Mapillary's research group focusing on applied research in Computer Vision and Machine Learning. With the acquisition of Mapillary in 2020, Peter and his team joined Facebook in Zurich. Peter received the Marr Prize in 2015 for his contribution of Deep Neural Decision Forests, joining deep learning with decision forests. He co-organized several tutorials and workshops on object recognition and robust computer vision at major conferences like CVPR, ECCV, and ICCV. He regularly published his research in high-impact conferences like ICCV, CVPR, ECCV, NeurIPS, and SIGGRAPH Asia. Peter received the Marr Prize in 2015 for his contribution of "Deep Neural Decision Forests". 
 
 * * *
 
