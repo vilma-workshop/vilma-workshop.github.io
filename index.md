@@ -76,6 +76,13 @@ IMU, and GNSS, for robust localization.
     <br>Director of Research<br>Meta Reality Labs</b>
 </figure>
 
+<figure>
+    <a href="https://research.nvidia.com/labs/dvl/author/laura-leal-taixe/" target="_blank">
+    <img class="img-organizer" src="assets/imgs/speakers/laura_leal-taixe.jpeg" alt="Laura Leal-Taixé"/></a>
+    <b><br><a href="https://research.nvidia.com/labs/dvl/author/laura-leal-taixe/" target="_blank">Laura Leal-Taixé</a>
+    <br>Senior Research Manager<br>NVIDIA</b>
+</figure>
+
 </div>
 
 **Sebastian Scherer**
@@ -92,6 +99,9 @@ is a Director of Research at Meta Reality labs, where he is leading egocentric m
 
 **Peter Kontschieder**
 received his PhD in 2013 from Graz University of Technology and is currently a Director (Research Science) at Meta Reality Labs in Zurich. His research interests include computer vision and machine learning, with particular focus on photorealistic 3D scene reconstruction, semantic scene understanding, image-based 3D modeling, and generative models for 3D synthesis. From 2013-2016 he was a postdoctoral researcher in the Machine Intelligence and Perception group at Microsoft Research in Cambridge (UK). In 2016 he joined Mapillary and founded Mapillary Research – Mapillary's research group focusing on applied research in Computer Vision and Machine Learning. With the acquisition of Mapillary in 2020, Peter and his team joined Facebook in Zurich. Peter received the Marr Prize in 2015 for his contribution of Deep Neural Decision Forests, joining deep learning with decision forests. He co-organized several tutorials and workshops on object recognition and robust computer vision at major conferences like CVPR, ECCV, and ICCV. He regularly published his research in high-impact conferences like ICCV, CVPR, ECCV, NeurIPS, and SIGGRAPH Asia. Peter received the Marr Prize in 2015 for his contribution of "Deep Neural Decision Forests". 
+
+**Laura Leal-Taixé**
+is a Senior Research Manager at NVIDIA and also an Adjunct Professor at the Technical University of Munich (TUM), leading the Dynamic Vision and Learning group. From 2018 until 2022, she was a tenure-track professor at TUM. Before that, she spent two years as a postdoctoral researcher at ETH Zurich, Switzerland, and a year as a senior postdoctoral researcher in the Computer Vision Group at the Technical University in Munich. She obtained her PhD from the Leibniz University of Hannover in Germany, spending a year as a visiting scholar at the University of Michigan, Ann Arbor, USA. She pursued B.Sc. and M.Sc. in Telecommunications Engineering at the Technical University of Catalonia (UPC) in her native city of Barcelona. She went to Boston, USA to do her Masters Thesis at Northeastern University with a fellowship from the Vodafone foundation. She is a recipient of the Sofja Kovalevskaja Award of 1.65 million euros in 2017, the Google Faculty Award in 2021, and the ERC Starting Grant in 2022.
 
 * * *
 
