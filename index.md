@@ -83,6 +83,13 @@ IMU, and GNSS, for robust localization.
     <br>Senior Research Manager<br>NVIDIA</b>
 </figure>
 
+<figure>
+    <a href="https://cvg.ethz.ch/team/Prof-Dr-Marc-Pollefeys" target="_blank">
+    <img class="img-organizer" src="assets/imgs/speakers/marc_pollefeys.jpeg" alt="Marc Pollefeys"/></a>
+    <b><br><a href="https://cvg.ethz.ch/team/Prof-Dr-Marc-Pollefeys" target="_blank">Marc Pollefeys</a>
+    <br>Professor & Director Mixed Reality and AI Lab<br>ETH & Microsoft</b>
+</figure>
+
 </div>
 
 **Sebastian Scherer**
@@ -102,6 +109,9 @@ received his PhD in 2013 from Graz University of Technology and is currently a D
 
 **Laura Leal-Taixé**
 is a Senior Research Manager at NVIDIA and also an Adjunct Professor at the Technical University of Munich (TUM), leading the Dynamic Vision and Learning group. From 2018 until 2022, she was a tenure-track professor at TUM. Before that, she spent two years as a postdoctoral researcher at ETH Zurich, Switzerland, and a year as a senior postdoctoral researcher in the Computer Vision Group at the Technical University in Munich. She obtained her PhD from the Leibniz University of Hannover in Germany, spending a year as a visiting scholar at the University of Michigan, Ann Arbor, USA. She pursued B.Sc. and M.Sc. in Telecommunications Engineering at the Technical University of Catalonia (UPC) in her native city of Barcelona. She went to Boston, USA to do her Masters Thesis at Northeastern University with a fellowship from the Vodafone foundation. She is a recipient of the Sofja Kovalevskaja Award of 1.65 million euros in 2017, the Google Faculty Award in 2021, and the ERC Starting Grant in 2022.
+
+**Marc Pollefeys**
+is a Professor of Computer Science at ETH Zurich and the Director of the Microsoft Mixed Reality and AI Lab in Zurich where he works with a team of scientists and engineers to develop advanced perception capabilities for HoloLens and Mixed Reality. He was elected Fellow of the IEEE in 2012. He obtained his PhD from the KU Leuven in 1999 and was a professor at UNC Chapel Hill before joining ETH Zurich. He is best known for his work in 3D computer vision, having been the first to develop a software pipeline to automatically turn photographs into 3D models, but also works on robotics, graphics and machine learning problems. Other noteworthy projects he worked on are real-time 3D scanning with mobile devices, a real-time pipeline for 3D reconstruction of cities from vehicle mounted-cameras, camera-based self-driving cars and the first fully autonomous vision-based drone. Most recently his academic research has focused on combining 3D reconstruction with semantic scene understanding.
 
 * * *
 
