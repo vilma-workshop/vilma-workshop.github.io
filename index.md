@@ -34,7 +34,69 @@ IMU, and GNSS, for robust localization.
 
 # Schedule {#schedule}
 - **June 17, 2024 ---** ViLMa Workshop @ CVPR 2024
-- TBD
+- **Room**: Summit 327
+
+<blockquote>
+  <p><strong>NOTE</strong>: Times are shown in <strong>Pacific Daylight Time</strong>. 
+Please take this into account if you are joining the workshop virtually.</p>
+</blockquote>
+
+<table>
+  <tbody>
+    <tr>
+      <td>09:00 - 09:10</td>
+      <td>Introduction to the Workshop</td>
+    </tr>
+    <tr>
+      <td>09:10 - 09:55</td>
+      <td><strong>Vincent Lepetit - Invited Keynote Talk 1</strong></td>
+    </tr>
+    <tr>
+      <td>09:55 - 10:40</td>
+      <td><strong>Lukas von Stumberg  - Invited Keynote Talk 2</strong></td>
+    </tr>
+    <tr>
+      <td>10:40 - 11:10</td>
+      <td><em>Coffee Break (30 min)</em></td>
+    </tr>
+    <tr>
+      <td>11:10 - 11:55</td>
+      <td><strong>Jakob Engel - Invited Keynote Talk 3</strong></td>
+    </tr>
+    <tr>
+      <td>11:55 - 13:05</td>
+      <td><em>Lunch Break (70 min)</em></td>
+    </tr>
+    <tr>
+      <td>13:05 - 13:50</td>
+      <td><strong>Peter Kontschieder - Invited Keynote Talk 4</strong></td>
+    </tr>
+    <tr>
+      <td>13:50 - 14:35</td>
+      <td><strong>Laura Leal-Taixé - Invited Keynote Talk 5</strong></td>
+    </tr>
+    <tr>
+      <td>14:35 - 15:05</td>
+      <td><em>Coffee Break (30 min)</em></td>
+    </tr>
+    <tr>
+      <td>15:05 - 15:50</td>
+      <td><strong>Sebastian Scherer - Invited Keynote Talk 6</strong></td>
+    </tr>
+    <tr>
+      <td>15:50 - 16:35</td>
+      <td><strong>Marc Pollefeys - Invited Keynote Talk 7</strong></td>
+    </tr>
+    <tr>
+      <td>16:35 - 17:10</td>
+      <td>Panel Discussion</td>
+    </tr>
+    <tr>
+      <td>17:10 - 17:20</td>
+      <td>Closing Remarks</td>
+    </tr>
+  </tbody>
+</table>
 
 * * *
 
