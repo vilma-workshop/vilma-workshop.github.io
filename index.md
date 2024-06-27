@@ -55,6 +55,7 @@ Please take this into account if you are joining the workshop virtually.</p>
     <tr>
       <td>09:55 - 10:40</td>
       <td><strong>Lukas von Stumberg  - Invited Keynote Talk 2</strong></td>
+      <td><a href="assets/slides/lukas_von_stumberg_talk_vilma2024.pdf" target="blank">Slides</a></td>
     </tr>
     <tr>
       <td>10:40 - 11:10</td>
@@ -71,6 +72,7 @@ Please take this into account if you are joining the workshop virtually.</p>
     <tr>
       <td>13:05 - 13:50</td>
       <td><strong>Peter Kontschieder - Invited Keynote Talk 4</strong></td>
+      <td><a href="assets/slides/peter_kontschieder_talk_vilma2024.pdf" target="blank">Slides</a></td>
     </tr>
     <tr>
       <td>13:50 - 14:35</td>
