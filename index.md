@@ -64,6 +64,7 @@ Please take this into account if you are joining the workshop virtually.</p>
     <tr>
       <td>11:10 - 11:55</td>
       <td><strong>Jakob Engel - Invited Keynote Talk 3</strong></td>
+      <td><a href="assets/slides/jakob_engel_talk_vilma2024.pdf" target="blank">Slides</a></td>
     </tr>
     <tr>
       <td>11:55 - 13:05</td>
