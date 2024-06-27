@@ -50,6 +50,7 @@ Please take this into account if you are joining the workshop virtually.</p>
     <tr>
       <td>09:10 - 09:55</td>
       <td><strong>Vincent Lepetit - Invited Keynote Talk 1</strong></td>
+      <td><a href="assets/slides/vincent_lepetit_talk_vilma2024.pdf" target="blank">Slides</a></td>
     </tr>
     <tr>
       <td>09:55 - 10:40</td>
