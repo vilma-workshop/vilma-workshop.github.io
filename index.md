@@ -85,6 +85,7 @@ Please take this into account if you are joining the workshop virtually.</p>
     <tr>
       <td>15:05 - 15:50</td>
       <td><strong>Sebastian Scherer - Invited Keynote Talk 6</strong></td>
+      <td><a href="assets/slides/sebastian_scherer_talk_vilma2024.pdf" target="blank">Slides</a></td>
     </tr>
     <tr>
       <td>15:50 - 16:35</td>
