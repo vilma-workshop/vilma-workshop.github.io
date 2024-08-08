@@ -78,6 +78,7 @@ Please take this into account if you are joining the workshop virtually.</p>
     <tr>
       <td>13:50 - 14:35</td>
       <td><strong>Laura Leal-Taixé - Invited Keynote Talk 5</strong></td>
+      <td><a href="assets/slides/laura_leal-taixe_vilma2024.pdf" target="blank">Slides</a></td>
     </tr>
     <tr>
       <td>14:35 - 15:05</td>
