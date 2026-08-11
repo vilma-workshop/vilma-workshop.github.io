@@ -1,104 +1,99 @@
 ---
 layout: default
-title: Visual Localization and Mapping Workshop
-description: ViLMa @ CVPR 2024
+title: ViLMa @ ECCV 2026
+description: "ViLMa – 2nd Workshop on Visual Localization and Mapping; From Optimization to 3D Foundation Models. Half-day workshop at ECCV 2026 in Malmö, Sweden."
+edition: eccv2026
+image: /assets/imgs/social-card.png
+heading: "ViLMa – 2nd Workshop on Visual Localization and Mapping"
+subheading: "From Optimization to 3D Foundation Models"
+nav:
+  - title: Topic
+    anchor: topic
+  - title: Schedule
+    anchor: schedule
+  - title: Invited Speakers
+    anchor: speakers
+  - title: Organizers
+    anchor: organizers
 ---
 
-Welcome to the **Visual Localization and Mapping Workshop** organized at CVPR 2024 in Seattle, WA. 
-[<img class="img-centered" src="assets/imgs/cvpr2024_logo.png" width="500" alt="cvpr2024_logo"/>](https://cvpr.thecvf.com/Conferences/2024){:target="_blank"}
+Welcome to **ViLMa**, the *2nd Workshop on Visual Localization and Mapping; From Optimization to 3D Foundation Models*, organized at ECCV 2026 in Malmö, Sweden.
+[<img class="img-centered" src="/assets/imgs/eccv2026_logo.svg" width="500" height="253" alt="ECCV 2026 logo"/>](https://eccv.ecva.net/Conferences/2026){:target="_blank"}
 
 * * *
 
-# Topic {#topic}
+## Topic {#topic}
 
-Visual localization and mapping is a fundamental aspect of computer vision, with applications ranging from autonomous robotics to augmented reality. This workshop aims to bring together researchers, practitioners, and enthusiasts in the field to discuss the latest developments, challenges, and applications of visual localization and mapping. The workshop will provide a platform for sharing insights, fostering collaborations, and exploring the cutting-edge research that underpins this crucial area of computer vision.
+Visual localization and 3D mapping stand at a critical inflection point. For decades, the field relied on explicit geometric modeling and hand-crafted optimization. Today, the rapid ascent of data-driven paradigms — specifically 3D foundation models, neural radiance fields (NeRFs), and 3D Gaussian Splatting — challenges these traditional pillars. We are moving from systems that map geometry to models that understand spatial context.
 
-Topics that will be covered in the workshop:
+The 2nd Workshop on Visual Localization and Mapping (ViLMa) addresses the central conflict defining this era: **the integration of rigorous geometric priors with the generalization capabilities of large-scale learning.**
 
-1. **SLAM (Simultaneous Localization and Mapping)**: Discuss the state-of-the-art SLAM algorithms, including both monocular, multi-sensor, and deep learning-based approaches.
-2. **Visual Odometry**: Explore techniques for estimating the motion of a camera using visual data, and its applications in navigation and robotics.
-3. **3D Reconstruction**: Present research on 3D scene reconstruction from images and discuss its role in mapping and localization.
-4. **Semantic Mapping**: Highlight approaches that incorporate semantic information into mapping and localization tasks, enhancing scene understanding.
-5. **Deep Learning for Visual Localization**: Discuss the integration of deep learning techniques, such as CNNs, Transformers, etc., in visual localization and mapping.
-6. **Large-Scale Mapping**: Examine methods for handling large-scale environments and
-their implications for real-world applications.
-7. **Sensor Fusion**: Explore the fusion of visual data with other sensors, such as LiDAR,
-IMU, and GNSS, for robust localization.
-8. **Localization in Challenging Environments**: Address challenges such as low light and harsh weather conditions, dynamic scenes, and occlusions in localization and mapping.
-9. **Applications**: Present real-world applications of visual localization and mapping, including robotics, autonomous vehicles, AR/VR, and more.
-10. **Benchmark Datasets and Evaluation Metrics**: Discuss standardized datasets and evaluation criteria to measure the performance of localization and mapping algorithms.
-11. **Future Directions**: Explore emerging trends and future research directions in the field, including the role of AI and machine learning.
-12. **Industrial and Commercial Use Cases**: Showcase successful commercial implementations and case studies that demonstrate the practical value of visual localization and mapping.
+We will tackle the most pressing questions:
+
+- **Obsolescence vs. Evolution:** Are classical SLAM pipelines becoming obsolete, or must they evolve into the "operating system" for neural representations?
+- **Hybrid Optimization Pipelines:** How do we mathematically fuse probabilistic state estimation with learned implicit features?
+- **Implicit vs. Explicit:** What is the optimal trade-off between memory-efficient implicit representations and actionable explicit maps?
+
+ViLMa covers the frontier of Spatial AI: next-generation SLAM, hybrid neuro-geometric pipelines, open-vocabulary mapping, and world models for embodied agents. By convening leading experts from academia and industry, we aim to foster a deeper synthesis between geometric principles and modern deep learning paradigms. This workshop is not just a review of current methods; it is a forum to define the architecture of future perception systems for AR/VR, robotics, and autonomous driving.
+
+### Topics of Interest
+
+- **Next-generation SLAM**: real-time localization and mapping built on learned representations, and what endures from the classical pipeline.
+- **3D foundation models**: feed-forward reconstruction, pose estimation and correspondence from large-scale pre-training, and the limits of generalization.
+- **Neural and Gaussian scene representations**: NeRFs, 3D Gaussian Splatting and their successors used as maps rather than as renderers.
+- **Hybrid neuro-geometric optimization**: fusing probabilistic state estimation and bundle adjustment with learned features and priors.
+- **Implicit versus explicit maps**: memory footprint, queryability, and the trade-off between compact implicit and directly actionable explicit representations.
+- **Open-vocabulary and semantic mapping**: language-grounded maps and open-set scene understanding for downstream tasks.
+- **World models for embodied agents**: predictive spatial models that support navigation, manipulation and planning.
+- **Large-scale and lifelong mapping**: city-scale reconstruction, map maintenance, change detection and long-term operation.
+- **Sensor fusion**: combining cameras with LiDAR, IMU, radar and GNSS inside learned pipelines.
+- **Robustness and generalization**: low light and adverse weather, dynamic scenes, occlusion, and domain shift.
+- **Benchmarks and evaluation**: datasets, metrics and protocols that can assess learned and hybrid systems fairly.
+- **Applications and deployment**: AR/VR, robotics and autonomous driving, including latency, efficiency and on-device constraints.
 
 * * *
 
-# Schedule {#schedule}
-- **June 17, 2024 ---** ViLMa Workshop @ CVPR 2024
-- **Room**: Summit 327
+## Schedule {#schedule}
+- **Tuesday, September 8, 2026, 08:00 - 12:00 ---** ViLMa Workshop @ ECCV 2026
+- **Room**: TBA
 
 <blockquote>
-  <p><strong>NOTE</strong>: Times are shown in <strong>Pacific Daylight Time</strong>. 
-Please take this into account if you are joining the workshop virtually.</p>
+  <p><strong>NOTE</strong>: Times are shown in <strong>Central European Summer Time</strong> (UTC+2).
+The programme is preliminary and subject to change.</p>
 </blockquote>
 
-<table>
+<table class="schedule">
   <tbody>
     <tr>
-      <td>09:00 - 09:10</td>
+      <td>08:00 - 08:10</td>
       <td>Introduction to the Workshop</td>
     </tr>
     <tr>
-      <td>09:10 - 09:55</td>
-      <td><strong>Vincent Lepetit - Invited Keynote Talk 1</strong></td>
-      <td><a href="assets/slides/vincent_lepetit_talk_vilma2024.pdf" target="blank">Slides</a></td>
+      <td>08:10 - 08:50</td>
+      <td><strong>Invited Talk 1</strong></td>
     </tr>
     <tr>
-      <td>09:55 - 10:40</td>
-      <td><strong>Lukas von Stumberg  - Invited Keynote Talk 2</strong></td>
-      <td><a href="assets/slides/lukas_von_stumberg_talk_vilma2024.pdf" target="blank">Slides</a></td>
+      <td>08:50 - 09:30</td>
+      <td><strong>Invited Talk 2</strong></td>
     </tr>
     <tr>
-      <td>10:40 - 11:10</td>
+      <td>09:30 - 10:00</td>
       <td><em>Coffee Break (30 min)</em></td>
     </tr>
     <tr>
-      <td>11:10 - 11:55</td>
-      <td><strong>Jakob Engel - Invited Keynote Talk 3</strong></td>
-      <td><a href="assets/slides/jakob_engel_talk_vilma2024.pdf" target="blank">Slides</a></td>
+      <td>10:00 - 10:40</td>
+      <td><strong>Invited Talk 3</strong></td>
     </tr>
     <tr>
-      <td>11:55 - 13:05</td>
-      <td><em>Lunch Break (70 min)</em></td>
+      <td>10:40 - 11:20</td>
+      <td><strong>Invited Talk 4</strong></td>
     </tr>
     <tr>
-      <td>13:05 - 13:50</td>
-      <td><strong>Peter Kontschieder - Invited Keynote Talk 4</strong></td>
-      <td><a href="assets/slides/peter_kontschieder_talk_vilma2024.pdf" target="blank">Slides</a></td>
-    </tr>
-    <tr>
-      <td>13:50 - 14:35</td>
-      <td><strong>Laura Leal-Taixé - Invited Keynote Talk 5</strong></td>
-      <td><a href="assets/slides/laura_leal-taixe_vilma2024.pdf" target="blank">Slides</a></td>
-    </tr>
-    <tr>
-      <td>14:35 - 15:05</td>
-      <td><em>Coffee Break (30 min)</em></td>
-    </tr>
-    <tr>
-      <td>15:05 - 15:50</td>
-      <td><strong>Sebastian Scherer - Invited Keynote Talk 6</strong></td>
-      <td><a href="assets/slides/sebastian_scherer_talk_vilma2024.pdf" target="blank">Slides</a></td>
-    </tr>
-    <tr>
-      <td>15:50 - 16:35</td>
-      <td><strong>Marc Pollefeys - Invited Keynote Talk 7</strong></td>
-    </tr>
-    <tr>
-      <td>16:35 - 17:10</td>
+      <td>11:20 - 11:50</td>
       <td>Panel Discussion</td>
     </tr>
     <tr>
-      <td>17:10 - 17:20</td>
+      <td>11:50 - 12:00</td>
       <td>Closing Remarks</td>
     </tr>
   </tbody>
@@ -106,133 +101,120 @@ Please take this into account if you are joining the workshop virtually.</p>
 
 * * *
 
-# Keynote Speakers {#speakers}
-<div class="container">
+## Invited Speakers {#speakers}
+<div class="people-grid">
+
+{%- comment -%} Speakers are listed alphabetically by surname. {%- endcomment -%}
+
 
 <figure>
-    <a href="https://theairlab.org/team/sebastian" target="_blank">
-    <img class="img-organizer" src="assets/imgs/speakers/sebastian_scherer.jpeg" alt="Sebastian Scherer"/></a>
-    <b><br><a href="https://theairlab.org/team/sebastian" target="_blank">Sebastian Scherer</a>
-    <br>Associate Research Professor<br>Carnegie Mellon University</b>
+    <a href="https://oswaldm.github.io/" target="_blank">
+    <img class="img-organizer" src="/assets/imgs/speakers/martin_oswald.jpg" alt="Martin R. Oswald"/></a>
+    <b><br><a href="https://oswaldm.github.io/" target="_blank">Martin R. Oswald</a>
+    <br>Assistant Professor<br>University of Amsterdam</b>
 </figure>
 
 <figure>
-    <a href="https://scholar.google.com/citations?user=jBgFEukAAAAJ" target="_blank">
-    <img class="img-organizer" src="assets/imgs/speakers/lukas_von_stumberg.jpeg" alt="Lukas von Stumberg"/></a>
-    <b><br><a href="https://scholar.google.com/citations?user=jBgFEukAAAAJ" target="_blank">Lukas von Stumberg</a>
-    <br>Computer Vision Software Engineer<br>Valve Corporation</b>
+    <a href="https://psarlin.com/" target="_blank">
+    <img class="img-organizer" src="/assets/imgs/speakers/paul_edouard_sarlin.jpg" alt="Paul-Edouard Sarlin"/></a>
+    <b><br><a href="https://psarlin.com/" target="_blank">Paul-Edouard Sarlin</a>
+    <br>Researcher<br>Google</b>
 </figure>
 
 <figure>
-    <a href="https://vincentlepetit.github.io/" target="_blank">
-    <img class="img-organizer" src="assets/imgs/speakers/vincent_lepetit.jpeg" alt="Vincent Lepetit"/></a>
-    <b><br><a href="https://vincentlepetit.github.io/" target="_blank">Vincent Lepetit</a>
-    <br>Professor<br>ENPC ParisTech</b>
+    <a href="https://www.robots.ox.ac.uk/~vedaldi/" target="_blank">
+    <img class="img-organizer" src="/assets/imgs/speakers/andrea_vedaldi.jpg" alt="Andrea Vedaldi"/></a>
+    <b><br><a href="https://www.robots.ox.ac.uk/~vedaldi/" target="_blank">Andrea Vedaldi</a>
+    <br>Professor<br>University of Oxford</b>
 </figure>
 
 <figure>
-    <a href="https://jakobengel.github.io/" target="_blank">
-    <img class="img-organizer" src="assets/imgs/speakers/jakob_engel.jpeg" alt="Jakob Engel"/></a>
-    <b><br><a href="https://jakobengel.github.io/" target="_blank">Jakob Engel</a>
-    <br>Director of Research<br>Meta Reality Labs</b>
-</figure>
-
-<figure>
-    <a href="https://scholar.google.com/citations?user=CxbDDRMAAAAJ" target="_blank">
-    <img class="img-organizer" src="assets/imgs/speakers/peter_kontschieder.jpg" alt="Peter Kontschieder"/></a>
-    <b><br><a href="https://scholar.google.com/citations?user=CxbDDRMAAAAJ" target="_blank">Peter Kontschieder</a>
-    <br>Director of Research<br>Meta Reality Labs</b>
-</figure>
-
-<figure>
-    <a href="https://research.nvidia.com/labs/dvl/author/laura-leal-taixe/" target="_blank">
-    <img class="img-organizer" src="assets/imgs/speakers/laura_leal-taixe.jpeg" alt="Laura Leal-Taixé"/></a>
-    <b><br><a href="https://research.nvidia.com/labs/dvl/author/laura-leal-taixe/" target="_blank">Laura Leal-Taixé</a>
-    <br>Senior Research Manager<br>NVIDIA</b>
-</figure>
-
-<figure>
-    <a href="https://cvg.ethz.ch/team/Prof-Dr-Marc-Pollefeys" target="_blank">
-    <img class="img-organizer" src="assets/imgs/speakers/marc_pollefeys.jpeg" alt="Marc Pollefeys"/></a>
-    <b><br><a href="https://cvg.ethz.ch/team/Prof-Dr-Marc-Pollefeys" target="_blank">Marc Pollefeys</a>
-    <br>Professor & Director Mixed Reality and AI Lab<br>ETH & Microsoft</b>
+    <a href="https://chriswolfvision.github.io/www/" target="_blank">
+    <img class="img-organizer" src="/assets/imgs/speakers/christian_wolf.jpg" alt="Christian Wolf"/></a>
+    <b><br><a href="https://chriswolfvision.github.io/www/" target="_blank">Christian Wolf</a>
+    <br>Principal Scientist<br>Naver Labs Europe</b>
 </figure>
 
 </div>
 
-**Sebastian Scherer**
-is an Associate Research Professor at the Robotics Institute (RI) at Carnegie Mellon University (CMU). His research focuses on enabling autonomy in challenging environments and previously led CMU’s entry to the SubT challenge. He and his team have shown several firsts for autonomy for flying robots and off-road driving. Dr. Scherer received his B.S. in Computer Science, M.S. and Ph.D. in Robotics from CMU in 2004, 2007, and 2010.  
+**Martin R. Oswald**
+is an Assistant Professor in the Computer Vision Group at the University of Amsterdam and a senior researcher in the Computer Vision and Geometry lab at ETH Zurich, where he was previously a postdoctoral researcher with Marc Pollefeys. He obtained his PhD in computer vision from the Technical University of Munich in 2015, advised by Daniel Cremers, after a Diplom in computer science from TU Dresden and a master's degree in civil engineering from Universidad Técnica Federico Santa María in Valparaíso, Chile. His research covers 3D reconstruction, 3D scene understanding and SLAM. He has co-authored a series of widely used neural SLAM systems, among them NICE-SLAM (CVPR 2022), Point-SLAM (ICCV 2023) and NICER-SLAM, which received a Best Paper Honorable Mention at 3DV 2024.
 
-**Lukas von Stumberg**
-works at Valve Software on computer vision and machine learning. In 2023, he received his PhD at the Computer Vision Group, Technical University of Munich. His research interests are visual(-inertial) SLAM and robotics, combining traditional methods with deep learning. From 2018 until 2020, he was a Senior Computer Vision Engineer at the start-up Artisense, developing machine vision systems for robot and vehicle automation. He has published 11 conference and journal papers and 2 book chapters, which were cited 1300 times. Among them is the open-source SLAM system DM-VIO.
+**Paul-Edouard Sarlin**
+is a researcher at Google in Zurich, where he works on world-scale mapping. He completed his PhD in 2024 with the Computer Vision and Geometry group at ETH Zurich under the supervision of Marc Pollefeys; his thesis, *On Learning and Geometry for Visual Localization and Mapping*, was awarded the ETH Silver Medal and the DAGM MVTec Dissertation Award at GCPR 2025. He is best known for the learned feature matchers SuperGlue (CVPR 2020) and LightGlue (ICCV 2023), and for hloc, a widely used open-source toolbox for visual localization and structure-from-motion. His further work includes Pixel-Perfect Structure-from-Motion (ICCV 2021), the LaMAR benchmark for AR localization and mapping, and OrienterNet, SNAP and GeoCalib.
 
-**Vincent Lepetit**
-is a professor at ENPC ParisTech, France. Prior to this position, he was a full professor at the Institute for Computer Graphics and Vision, Graz University of Technology (TU Graz), Austria and before that, a senior researcher at CVLab, Ecole Polytechnique Federale de Lausanne (EPFL), Switzerland. His current research focuses on 3D scene understanding, especially at trying to reduce the supervision needed by a system to learn new 3D objects and new 3D environments. In 2020, he received with colleagues the Koenderick “test-of-time” award for “Brief: Binary Robust Independent Elementary Features”. He often serves as an area chair of major computer vision conferences (CVPR, ICCV, ECCV) and as an editor for the Pattern Analysis and Machine Intelligence (PAMI). He was awarded in 2023 an ERC Advanced Grant for the 'explorer' project on creating digital twins of large-scale sites.
+**Andrea Vedaldi**
+is Professor of Computer Vision and Machine Learning at the University of Oxford, where he co-leads the Visual Geometry Group (VGG) in the Department of Engineering Science. His research develops methods that understand the content of images and videos automatically, with little to no manual supervision, both in terms of semantics and of 3D geometry. He was elected a Fellow of the Royal Academy of Engineering in 2025 and is one of the inaugural recipients of the Royal Society Faraday Discovery Fellowship, which supports a long-term programme on spatial artificial intelligence. His recent work includes the VGGT family of feed-forward 3D reconstruction models, whose quality scales with data and model size; VGGT-Ω was named a best paper finalist at CVPR 2026.
 
-**Jakob Engel**
-is a Director of Research at Meta Reality labs, where he is leading egocentric machine perception research as part of Meta's Project Aria. He has 10+ years of experience working on SLAM, 3D scene understanding and user/environment interaction tracking, leading both research projects as well as shipping core localization technology into Meta's MR and VR product lines. Dr. Engel received his Ph.D. in Computer Science at the Computer Vision Group at the Technical University of Munich in 2016, where he pioneered direct methods for SLAM through DSO and LSD-SLAM.
-
-**Peter Kontschieder**
-received his PhD in 2013 from Graz University of Technology and is currently a Director (Research Science) at Meta Reality Labs in Zurich. His research interests include computer vision and machine learning, with particular focus on photorealistic 3D scene reconstruction, semantic scene understanding, image-based 3D modeling, and generative models for 3D synthesis. From 2013-2016 he was a postdoctoral researcher in the Machine Intelligence and Perception group at Microsoft Research in Cambridge (UK). In 2016 he joined Mapillary and founded Mapillary Research – Mapillary's research group focusing on applied research in Computer Vision and Machine Learning. With the acquisition of Mapillary in 2020, Peter and his team joined Facebook in Zurich. Peter received the Marr Prize in 2015 for his contribution of Deep Neural Decision Forests, joining deep learning with decision forests. He co-organized several tutorials and workshops on object recognition and robust computer vision at major conferences like CVPR, ECCV, and ICCV. He regularly published his research in high-impact conferences like ICCV, CVPR, ECCV, NeurIPS, and SIGGRAPH Asia. Peter received the Marr Prize in 2015 for his contribution of "Deep Neural Decision Forests". 
-
-**Laura Leal-Taixé**
-is a Senior Research Manager at NVIDIA and also an Adjunct Professor at the Technical University of Munich (TUM), leading the Dynamic Vision and Learning group. From 2018 until 2022, she was a tenure-track professor at TUM. Before that, she spent two years as a postdoctoral researcher at ETH Zurich, Switzerland, and a year as a senior postdoctoral researcher in the Computer Vision Group at the Technical University in Munich. She obtained her PhD from the Leibniz University of Hannover in Germany, spending a year as a visiting scholar at the University of Michigan, Ann Arbor, USA. She pursued B.Sc. and M.Sc. in Telecommunications Engineering at the Technical University of Catalonia (UPC) in her native city of Barcelona. She went to Boston, USA to do her Masters Thesis at Northeastern University with a fellowship from the Vodafone foundation. She is a recipient of the Sofja Kovalevskaja Award of 1.65 million euros in 2017, the Google Faculty Award in 2021, and the ERC Starting Grant in 2022.
-
-**Marc Pollefeys**
-is a Professor of Computer Science at ETH Zurich and the Director of the Microsoft Mixed Reality and AI Lab in Zurich where he works with a team of scientists and engineers to develop advanced perception capabilities for HoloLens and Mixed Reality. He was elected Fellow of the IEEE in 2012. He obtained his PhD from the KU Leuven in 1999 and was a professor at UNC Chapel Hill before joining ETH Zurich. He is best known for his work in 3D computer vision, having been the first to develop a software pipeline to automatically turn photographs into 3D models, but also works on robotics, graphics and machine learning problems. Other noteworthy projects he worked on are real-time 3D scanning with mobile devices, a real-time pipeline for 3D reconstruction of cities from vehicle mounted-cameras, camera-based self-driving cars and the first fully autonomous vision-based drone. Most recently his academic research has focused on combining 3D reconstruction with semantic scene understanding.
+**Christian Wolf**
+is a Principal Scientist at Naver Labs Europe, where he leads the Spatial AI team. From 2005 to 2021 he was an associate professor (Maître de Conférences, HDR) at INSA Lyon and the CNRS laboratory LIRIS, where he held the ANR/Naver/INSA chair in artificial intelligence "REMEMBER — Learning Reasoning, Memory and Behavior". He received his MSc from TU Vienna in 2000, his PhD from INSA Lyon in 2003, and his habilitation in 2012. His research focuses on AI for robotics, in particular machine learning and embodied computer vision, the large-scale learning of high-level reasoning from visual observations, and the connections between machine learning and control. He is an ELLIS member and served as an associate editor of IEEE TPAMI from 2019 to 2025.
 
 * * *
 
-# Organizers {#organizers}
-<div class="container">
+## Organizers {#organizers}
+<div class="people-grid">
+
+{%- comment -%} Organizers are listed alphabetically by surname. {%- endcomment -%}
+
+<figure>
+    <a href="https://lucacarlone.mit.edu/" target="_blank">
+    <img class="img-organizer" src="/assets/imgs/organizers/luca_carlone.jpg" alt="Luca Carlone"/></a>
+    <b><br><a href="https://lucacarlone.mit.edu/" target="_blank">Luca Carlone</a>
+    <br>Associate Professor<br>Massachusetts Institute of Technology</b>
+</figure>
 
 <figure>
     <a href="https://cvg.cit.tum.de/members/cremers" target="_blank">
-    <img class="img-organizer" src="assets/imgs/organizers/daniel_cremers.jpg" alt="Daniel Cremers"/></a>
+    <img class="img-organizer" src="/assets/imgs/organizers/daniel_cremers.jpg" alt="Daniel Cremers"/></a>
     <b><br><a href="https://cvg.cit.tum.de/members/cremers" target="_blank">Daniel Cremers</a>
     <br>Professor<br>Technical University of Munich</b>
 </figure>
 
 <figure>
     <a href="https://dimadamen.github.io/" target="_blank">
-    <img class="img-organizer" src="assets/imgs/organizers/dima_damen.jpg" alt="Dima Damen"/></a>
+    <img class="img-organizer" src="/assets/imgs/organizers/dima_damen.jpg" alt="Dima Damen"/></a>
     <b><br><a href="https://dimadamen.github.io/" target="_blank">Dima Damen</a>
     <br>Professor<br>University of Bristol</b>
 </figure>
 
 <figure>
-    <a href="https://cvg.cit.tum.de/members/koestlel" target="_blank">
-    <img class="img-organizer" src="assets/imgs/organizers/lukas_koestler.jpg" alt="Lukas Koestler"/></a>
-    <b><br><a href="https://cvg.cit.tum.de/members/koestlel" target="_blank">Lukas Koestler</a>
-    <br>PhD Student<br>Technical University of Munich</b>
+    <a href="https://dellaert.github.io/" target="_blank">
+    <img class="img-organizer" src="/assets/imgs/organizers/frank_dellaert.jpg" alt="Frank Dellaert"/></a>
+    <b><br><a href="https://dellaert.github.io/" target="_blank">Frank Dellaert</a>
+    <br>Professor<br>Georgia Institute of Technology</b>
 </figure>
 
 <figure>
-    <a href="https://srl.cit.tum.de/members/leuteneg" target="_blank">
-    <img class="img-organizer" src="assets/imgs/organizers/stefan_leutenegger.jpg" alt="Stefan Leutenegger"/></a>
-    <b><br><a href="https://srl.cit.tum.de/members/leuteneg" target="_blank">Stefan Leutenegger</a>
-    <br>Professor<br>Technical University of Munich</b>
-</figure>
-
-<figure>
-    <a href="https://www.cs.toronto.edu/~urtasun/" target="_blank">
-    <img class="img-organizer" src="assets/imgs/organizers/raquel_urtasun.jpg" alt="Raquel Urtasun"/></a>
-    <b><br><a href="https://www.cs.toronto.edu/~urtasun/" target="_blank">Raquel Urtasun</a>
-    <br>CEO & Professor<br>Waabi & University of Toronto</b>
+    <a href="https://ayoungk.github.io/" target="_blank">
+    <img class="img-organizer" src="/assets/imgs/organizers/ayoung_kim.jpg" alt="Ayoung Kim"/></a>
+    <b><br><a href="https://ayoungk.github.io/" target="_blank">Ayoung Kim</a>
+    <br>Professor<br>Seoul National University</b>
 </figure>
 
 <figure>
     <a href="https://pmwenzel.github.io/" target="_blank">
-    <img class="img-organizer" src="assets/imgs/organizers/patrick_wenzel.jpg" alt="Patrick Wenzel"/></a>
+    <img class="img-organizer" src="/assets/imgs/organizers/patrick_wenzel.jpg" alt="Patrick Wenzel"/></a>
     <b><br><a href="https://pmwenzel.github.io/" target="_blank">Patrick Wenzel</a>
     <br>AI Research Engineer<br>Helsing</b>
 </figure>
 
 <figure>
     <a href="https://www.niclas-zeller.de/" target="_blank">
-    <img class="img-organizer" src="assets/imgs/organizers/niclas_zeller.jpg" alt="Niclas Zeller"/></a>
+    <img class="img-organizer" src="/assets/imgs/organizers/niclas_zeller.jpg" alt="Niclas Zeller"/></a>
     <b><br><a href="https://www.niclas-zeller.de/" target="_blank">Niclas Zeller</a>
     <br>Professor<br>Karlsruhe University of Applied Sciences</b>
 </figure>
 
 </div>
+
+* * *
+
+## Related Workshops {#related}
+
+Other ECCV 2026 workshops on closely related topics:
+
+- [3rd Neural SLAM Workshop (NeuSLAM)](https://sites.google.com/view/neuslam/home){:target="_blank"} — September 8, afternoon
+- [Privacy-Preserving Visual Localization and Mapping](https://sites.google.com/view/ppvlm2026/home){:target="_blank"} — September 8, afternoon
+- [Structure-from-Motion in the Age of Deep Learning (SfM-ADL)](https://sfm-dl.fbk.eu/){:target="_blank"} — September 9, morning
+
+ViLMa takes place on the morning of September 8, so none of these clash with our programme.

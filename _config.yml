@@ -1,5 +1,22 @@
+title: Visual Localization and Mapping Workshop
+
+# jekyll-seo-tag builds canonical and og:url from this. Without it, those tags
+# fall back to whatever host built the site (localhost during `jekyll serve`).
+url: https://vilma-workshop.github.io
+
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
 plugins:
   - jemoji
+
+# Setting `exclude` replaces Jekyll's defaults, so Gemfile has to be repeated.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - script
+  - vendor
+  # Source for the social preview; only the exported PNG needs to ship.
+  - assets/imgs/social-card.svg

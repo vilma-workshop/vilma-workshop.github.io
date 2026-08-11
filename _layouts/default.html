@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
+    <meta name="theme-color" content="#0f7350">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
@@ -16,8 +16,21 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {%- comment -%}
+        Each edition has its own full name, so the header falls back to the
+        series name in `site.title` when a page sets no `heading`. `page.title`
+        stays short and edition-specific, which keeps <title> unique per page.
+        The last line is derived from _data/editions.yml so the header and the
+        switcher can never disagree about where and when an edition took place.
+      {%- endcomment -%}
+      {% assign edition = site.data.editions | where: "id", page.edition | first %}
+      <h1 class="project-name">{{ page.heading | default: site.title | default: site.github.repository_name }}</h1>
+      {% if page.subheading %}
+        <h2 class="project-tagline">{{ page.subheading }}</h2>
+      {% endif %}
+      {% if edition %}
+        <p class="project-edition">{{ edition.name }} &middot; {{ edition.location }} &middot; {{ edition.date }}</p>
+      {% endif %}
       {% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
       {% endif %}
@@ -26,17 +39,20 @@
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
 
-      <a href="#topic" class="btn" target="_self">Topic</a>
-      <a href="#schedule" class="btn" target="_self">Schedule</a>
-      <a href="#speakers" class="btn" target="_self">Keynote Speakers</a>
-      <a href="#organizers" class="btn" target="_self">Organizers</a>
+      {% for item in page.nav %}
+        <a href="#{{ item.anchor }}" class="btn" target="_self">{{ item.title }}</a>
+      {% endfor %}
+
+      {% if site.data.editions.size > 1 %}
+        {% include edition-switcher.html %}
+      {% endif %}
 
     </header>
 
-    <script src="assets/js/vanilla-back-to-top.min.js"></script>
+    <script src="/assets/js/vanilla-back-to-top.min.js"></script>
     <script>addBackToTop({
       diameter: 56,
-      backgroundColor: 'rgb(0, 0, 0)',
+      backgroundColor: '#0f7350',
       textColor: '#fff'
     })</script>
 

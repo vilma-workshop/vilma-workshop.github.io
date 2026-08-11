@@ -1,0 +1,31 @@
+{%- comment -%}
+  Edition dropdown for the page header, generated from _data/editions.yml.
+  Built on <details> so it needs no JavaScript to open; the script below only
+  closes it again on an outside click or Escape.
+{%- endcomment -%}
+<details class="edition-switcher">
+  <summary class="btn">Editions</summary>
+  <ul class="edition-menu">
+    {% for edition in site.data.editions %}
+      <li{% if edition.id == page.edition %} class="is-current"{% endif %}>
+        <a href="{{ edition.url }}"{% if edition.id == page.edition %} aria-current="page"{% endif %}>
+          <span class="edition-name">{{ edition.name }}{% if edition.current %} <span class="edition-badge">current</span>{% endif %}</span>
+          <span class="edition-meta">{{ edition.location }} &middot; {{ edition.date }}</span>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</details>
+
+<script>
+  (function () {
+    var details = document.querySelector('.edition-switcher');
+    if (!details) return;
+    document.addEventListener('click', function (event) {
+      if (!details.contains(event.target)) details.removeAttribute('open');
+    });
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') details.removeAttribute('open');
+    });
+  })();
+</script>

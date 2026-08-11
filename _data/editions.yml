@@ -1,0 +1,16 @@
+# All ViLMa workshop editions, newest first.
+# Rendered by _includes/edition-switcher.html into the header of every page.
+# To add an edition: append an entry here and create <id>/index.md with a
+# matching `edition: <id>` in its front matter.
+- id: eccv2026
+  name: ViLMa @ ECCV 2026
+  location: Malmö, Sweden
+  date: September 8, 2026
+  url: /
+  current: true
+
+- id: cvpr2024
+  name: ViLMa @ CVPR 2024
+  location: Seattle, WA
+  date: June 17, 2024
+  url: /cvpr2024/
