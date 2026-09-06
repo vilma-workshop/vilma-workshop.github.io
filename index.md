@@ -11,7 +11,7 @@ nav:
     anchor: topic
   - title: Schedule
     anchor: schedule
-  - title: Invited Speakers
+  - title: Keynote Speakers
     anchor: speakers
   - title: Organizers
     anchor: organizers
@@ -54,8 +54,8 @@ ViLMa covers the frontier of Spatial AI: next-generation SLAM, hybrid neuro-geom
 * * *
 
 ## Schedule {#schedule}
-- **Tuesday, September 8, 2026, 08:00 - 12:00 ---** ViLMa Workshop @ ECCV 2026
-- **Room**: TBA
+- **Tuesday, September 8, 2026, 08:10 - 12:30 ---** ViLMa Workshop @ ECCV 2026
+- **Room**: Malmömässan K2
 
 <blockquote>
   <p><strong>NOTE</strong>: Times are shown in <strong>Central European Summer Time</strong> (UTC+2).
@@ -65,47 +65,58 @@ The programme is preliminary and subject to change.</p>
 <table class="schedule">
   <tbody>
     <tr>
-      <td>08:00 - 08:10</td>
+      <td>08:10 - 08:15</td>
       <td>Introduction to the Workshop</td>
     </tr>
     <tr>
-      <td>08:10 - 08:50</td>
-      <td><strong>Invited Talk 1</strong></td>
+      <td>08:15 - 08:45</td>
+      <td><strong>Keynote: Christian Wolf</strong></td>
     </tr>
     <tr>
-      <td>08:50 - 09:30</td>
-      <td><strong>Invited Talk 2</strong></td>
+      <td>08:45 - 09:15</td>
+      <td><strong>Keynote: Paul-Edouard Sarlin</strong></td>
     </tr>
     <tr>
-      <td>09:30 - 10:00</td>
-      <td><em>Coffee Break (30 min)</em></td>
+      <td>09:15 - 09:45</td>
+      <td><strong>Keynote: Patrick Wenzel</strong></td>
     </tr>
     <tr>
-      <td>10:00 - 10:40</td>
-      <td><strong>Invited Talk 3</strong></td>
+      <td>09:45 - 10:15</td>
+      <td><strong>Keynote: Andrea Vedaldi</strong></td>
     </tr>
     <tr>
-      <td>10:40 - 11:20</td>
-      <td><strong>Invited Talk 4</strong></td>
+      <td>10:15 - 11:00</td>
+      <td><em>Coffee Break (45 min)</em></td>
     </tr>
     <tr>
-      <td>11:20 - 11:50</td>
-      <td>Panel Discussion</td>
+      <td>11:00 - 11:30</td>
+      <td><strong>Keynote: Martin R. Oswald</strong></td>
     </tr>
     <tr>
-      <td>11:50 - 12:00</td>
-      <td>Closing Remarks</td>
+      <td>11:30 - 12:00</td>
+      <td><strong>Keynote: Daniel Cremers</strong></td>
+    </tr>
+    <tr>
+      <td>12:00 - 12:30</td>
+      <td>Panel Discussion &amp; Closing Remarks</td>
     </tr>
   </tbody>
 </table>
 
 * * *
 
-## Invited Speakers {#speakers}
+## Keynote Speakers {#speakers}
 <div class="people-grid">
 
 {%- comment -%} Speakers are listed alphabetically by surname. {%- endcomment -%}
 
+
+<figure>
+    <a href="https://cvg.cit.tum.de/members/cremers" target="_blank">
+    <img class="img-organizer" src="/assets/imgs/speakers/daniel_cremers.jpg" alt="Daniel Cremers"/></a>
+    <b><br><a href="https://cvg.cit.tum.de/members/cremers" target="_blank">Daniel Cremers</a>
+    <br>Professor<br>Technical University of Munich</b>
+</figure>
 
 <figure>
     <a href="https://oswaldm.github.io/" target="_blank">
@@ -129,6 +140,13 @@ The programme is preliminary and subject to change.</p>
 </figure>
 
 <figure>
+    <a href="https://pmwenzel.github.io/" target="_blank">
+    <img class="img-organizer" src="/assets/imgs/speakers/patrick_wenzel.jpg" alt="Patrick Wenzel"/></a>
+    <b><br><a href="https://pmwenzel.github.io/" target="_blank">Patrick Wenzel</a>
+    <br>AI Research Engineer<br>Helsing</b>
+</figure>
+
+<figure>
     <a href="https://chriswolfvision.github.io/www/" target="_blank">
     <img class="img-organizer" src="/assets/imgs/speakers/christian_wolf.jpg" alt="Christian Wolf"/></a>
     <b><br><a href="https://chriswolfvision.github.io/www/" target="_blank">Christian Wolf</a>
@@ -136,6 +154,9 @@ The programme is preliminary and subject to change.</p>
 </figure>
 
 </div>
+
+**Daniel Cremers**
+is Professor of Computer Science and Mathematics at the Technical University of Munich, where he holds the Chair of Computer Vision and Artificial Intelligence, and is a director of the Munich Center for Machine Learning. He obtained his PhD in computer science in 2002, after diplomas in mathematics and physics, and worked as a postdoctoral researcher at UCLA and Siemens Corporate Research before becoming a professor at the University of Bonn in 2005 and moving to TUM in 2009. His research spans variational methods, convex optimization and deep learning for 3D reconstruction, motion estimation and SLAM, including the widely used direct methods LSD-SLAM and DSO. He received the Gottfried Wilhelm Leibniz Award in 2016, Germany's most prestigious research prize, as well as an ERC Starting, Consolidator and Advanced Grant.
 
 **Martin R. Oswald**
 is an Assistant Professor in the Computer Vision Group at the University of Amsterdam and a senior researcher in the Computer Vision and Geometry lab at ETH Zurich, where he was previously a postdoctoral researcher with Marc Pollefeys. He obtained his PhD in computer vision from the Technical University of Munich in 2015, advised by Daniel Cremers, after a Diplom in computer science from TU Dresden and a master's degree in civil engineering from Universidad Técnica Federico Santa María in Valparaíso, Chile. His research covers 3D reconstruction, 3D scene understanding and SLAM. He has co-authored a series of widely used neural SLAM systems, among them NICE-SLAM (CVPR 2022), Point-SLAM (ICCV 2023) and NICER-SLAM, which received a Best Paper Honorable Mention at 3DV 2024.
@@ -145,6 +166,9 @@ is a researcher at Google in Zurich, where he works on world-scale mapping. He c
 
 **Andrea Vedaldi**
 is Professor of Computer Vision and Machine Learning at the University of Oxford, where he co-leads the Visual Geometry Group (VGG) in the Department of Engineering Science. His research develops methods that understand the content of images and videos automatically, with little to no manual supervision, both in terms of semantics and of 3D geometry. He was elected a Fellow of the Royal Academy of Engineering in 2025 and is one of the inaugural recipients of the Royal Society Faraday Discovery Fellowship, which supports a long-term programme on spatial artificial intelligence. His recent work includes the VGGT family of feed-forward 3D reconstruction models, whose quality scales with data and model size; VGGT-Ω was named a best paper finalist at CVPR 2026.
+
+**Patrick Wenzel**
+is an AI Research Engineer at Helsing in Munich. He obtained his PhD in computer science from the Technical University of Munich, advised by Daniel Cremers, with a focus on robust visual localization and mapping under long-term appearance change. He is a co-author of the 4Seasons dataset for multi-weather SLAM and long-term visual localization in automotive settings, and has worked on cross-season place recognition and learned front-ends for direct visual odometry, previously as a researcher at Artisense. His current interests lie in bringing learned perception and mapping systems into reliable real-world deployment.
 
 **Christian Wolf**
 is a Principal Scientist at Naver Labs Europe, where he leads the Spatial AI team. From 2005 to 2021 he was an associate professor (Maître de Conférences, HDR) at INSA Lyon and the CNRS laboratory LIRIS, where he held the ANR/Naver/INSA chair in artificial intelligence "REMEMBER — Learning Reasoning, Memory and Behavior". He received his MSc from TU Vienna in 2000, his PhD from INSA Lyon in 2003, and his habilitation in 2012. His research focuses on AI for robotics, in particular machine learning and embodied computer vision, the large-scale learning of high-level reasoning from visual observations, and the connections between machine learning and control. He is an ELLIS member and served as an associate editor of IEEE TPAMI from 2019 to 2025.
@@ -161,6 +185,13 @@ is a Principal Scientist at Naver Labs Europe, where he leads the Spatial AI tea
     <img class="img-organizer" src="/assets/imgs/organizers/luca_carlone.jpg" alt="Luca Carlone"/></a>
     <b><br><a href="https://lucacarlone.mit.edu/" target="_blank">Luca Carlone</a>
     <br>Associate Professor<br>Massachusetts Institute of Technology</b>
+</figure>
+
+<figure>
+    <a href="https://cvg.cit.tum.de/members/cheq" target="_blank">
+    <img class="img-organizer" src="/assets/imgs/organizers/qing_cheng.jpg" alt="Qing Cheng"/></a>
+    <b><br><a href="https://cvg.cit.tum.de/members/cheq" target="_blank">Qing Cheng</a>
+    <br>PhD Student<br>Technical University of Munich</b>
 </figure>
 
 <figure>
